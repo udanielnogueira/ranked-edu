@@ -8,7 +8,7 @@
     --soft-gray: rgb(90, 91, 95);
     --icon-color: white;
     --main-color: rgb(206, 12, 125);
-    --cream: rgb(246, 246, 239);
+    --cream: rgb(233, 77, 142);
 }
 
 * {
@@ -55,7 +55,7 @@ body {
     font-size: 2rem;
 }
 
-.profile-img-topo {
+.profile-img-topo, .profile-img {
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
@@ -95,34 +95,51 @@ body {
     gap: 3.5rem;
 }
 
-.card-aula {
+.principal-rank {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-modulo {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.link-aula {
+.link-modulo {
     text-decoration: none;
 }
 
-.titulo-aula {
+.titulo-modulo {
     font-size: 2rem;
     font-weight: 700;
 }
 
-.descricao-aula {
+.descricao-modulo {
     font-weight: 400;
     color: var(--soft-gray);
 }
 
-.imagem-aula {
+.imagem-modulo {
     width: 50rem;
     height: 30rem;
-    background-image: url("https://source.unsplash.com/random/?technology");
-    background-position: center;
     background-size: cover;
     border-radius: 1rem;
     margin-bottom: 1rem;
+    border: 0.1rem solid var(--soft-gray);
+}
+
+.mod-1 {
+    background-image: url("img/modulo-1.jpg");
+}
+
+.mod-2 {
+    background-image: url("img/modulo-2.jpg");
+}
+
+.mod-3 {
+    background-image: url("img/modulo-3.jpg");
 }
 
 .info {
@@ -162,6 +179,23 @@ body {
     color: var(--soft-gray);
 }
 
+.rank-user {
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 0.1rem solid var(--soft-gray);
+    border-radius: 1rem;
+}
+
+.rank-user-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
 footer {
     display: flex;
     align-items: center;
@@ -183,21 +217,33 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-    .imagem-aula {
+    .imagem-modulo {
         width: 19.3rem;
         height: 19.3rem;
+    }
+
+    .rank-user {
+        width: 19.3rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .rank-user-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .topo {
         padding: 1rem;
     }
 
-    .titulo-aula {
+    .titulo-modulo {
         font-size: 1.3rem;
         font-weight: 700;
     }
 
-    .descricao-aula {
+    .descricao-modulo {
         font-size: 1.3rem;
     }
 
