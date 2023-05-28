@@ -63,6 +63,7 @@ body {
     padding: 0.3rem;
 }
 
+
 .profile-principal-img {
     height: 15rem;
     width: 15rem;
@@ -116,7 +117,7 @@ body {
     flex-direction: column;
     gap: 2rem;
     width: 50rem;
-    height: 100vh;
+    height: 90vh;
 }
 
 .card-modulo {
@@ -210,18 +211,19 @@ body {
 .rank-user-left {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
 }
 
 .rank-name {
-    font-size: 3rem;
-    font-weight: 900;
+    font-size: 1.7rem;
 }
 
 .profile-status {
     font-size: 2rem;
     font-weight: 400;
     color: var(--cream);
+    text-align: center;
 }
 
 footer {
