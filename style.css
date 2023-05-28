@@ -144,7 +144,7 @@ body {
 
 .principal-account {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     height: 100vh;
     gap: 0.7rem;
@@ -323,14 +323,30 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+
+    .lateral {
+        font-size: 1.1rem;
+        gap: 0.5rem;
+        width: 10rem;
+    }
+
+    .fa-solid {
+        font-size: 1rem;
+    }
+
+    .acesso {
+        padding: 0.5rem;
+    }
+
     .imagem-modulo {
         width: 19.3rem;
         height: 19.3rem;
     }
 
     .rank-user {
-        width: 19.3rem;
+        width: 25rem;
         flex-direction: column;
+        align-items: flex-start;
         gap: 1.5rem;
     }
 
@@ -382,16 +398,17 @@ footer a:hover {
 
     .container {
         padding: 1rem;
-        justify-content: space-between;
-        gap: 1.5rem;
+        justify-content: flex-start;
+        gap: 1rem;
     }
 
     .principal-profile {
-        width: 45.5rem;
+        width: 25rem;
     }
 
     .principal-contact {
-        width: 41rem;
+        width: 25rem;
+        padding: 2rem 0;
     }
 
     .contato-p1 {
@@ -409,8 +426,8 @@ footer a:hover {
     }
 
     .principal-account {
-        width: 40rem;
-        padding: 1rem 0;
+        width: 25rem;
+        padding: 2rem 2rem;
     }
 
     .account-save {
@@ -418,6 +435,6 @@ footer a:hover {
     }
 
     .principal-account input {
-        width: 15rem;
+        width: 20rem;
     }
 }
