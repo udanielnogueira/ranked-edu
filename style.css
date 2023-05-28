@@ -117,8 +117,8 @@ body {
     flex-direction: column;
     gap: 1rem;
     width: 50rem;
-    padding: 1rem 0;
-    height: 90vh;
+    padding: 2rem 0;
+    height: 100vh;
     border: 0.1rem solid var(--soft-gray);
     border-radius: 1rem;
 }
@@ -136,15 +136,60 @@ body {
     flex-direction: column;
     gap: 2rem;
     width: 50rem;
-    height: 90vh;
+    height: 100vh;
     padding: 2rem 1.6rem;
     border: 0.1rem solid var(--soft-gray);
     border-radius: 1rem;
 }
 
+.principal-account {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 0.7rem;
+    width: 50rem;
+    border: 0.1rem solid var(--soft-gray);
+    padding: 2rem 1.6rem;
+    border-radius: 1rem;
+}
+
+.principal-account p {
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+}
+
+.principal-account input {
+    display: flex;
+    width: 20rem;
+    margin-bottom: 5rem;
+    box-shadow: none;
+    padding: 0.5rem;
+    background-color: var(--bg-color);
+    border: none;
+    border-bottom: 0.1rem solid var(--main-color);
+    color: white;
+}
+
+.principal-account input::after {
+    border: none;
+}
+
+.account-save {
+    padding: 1rem 8rem;
+    background-color: var(--main-color);
+    border-radius: 0.5rem;
+}
+
+.account-link {
+    color: white;
+    text-decoration: none;
+}
+
 .contato-p1 {
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .contato-p2 {
@@ -338,7 +383,7 @@ footer a:hover {
     .container {
         padding: 1rem;
         justify-content: space-between;
-        gap: 1rem;
+        gap: 1.5rem;
     }
 
     .principal-profile {
@@ -350,12 +395,29 @@ footer a:hover {
     }
 
     .contato-p1 {
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         font-weight: 900;
     }
     
     .contato-p2 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         color: var(--main-color);
+    }
+
+    .principal-account p {
+        font-size: 1.2rem;
+    }
+
+    .principal-account {
+        width: 40rem;
+        padding: 1rem 0;
+    }
+
+    .account-save {
+        padding: 1rem 5rem;
+    }
+
+    .principal-account input {
+        width: 15rem;
     }
 }
