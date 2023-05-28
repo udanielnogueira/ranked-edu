@@ -8,7 +8,7 @@
     --soft-gray: rgb(90, 91, 95);
     --icon-color: white;
     --main-color: rgb(206, 12, 125);
-    --cream: rgb(233, 77, 142);
+    --cream: rgb(236, 91, 151);
 }
 
 * {
@@ -63,6 +63,14 @@ body {
     padding: 0.3rem;
 }
 
+.profile-principal-img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    border: 0.3rem solid var(--main-color);
+    padding: 0.3rem;
+}
+
 .lateral {
     display: flex;
     flex-direction: column;
@@ -99,6 +107,16 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.principal-profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50rem;
+    height: 100vh;
 }
 
 .card-modulo {
@@ -195,6 +213,16 @@ body {
     gap: 1rem;
 }
 
+.rank-name {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.profile-status {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--cream);
+}
 
 footer {
     display: flex;
