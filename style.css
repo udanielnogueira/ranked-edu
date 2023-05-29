@@ -62,7 +62,7 @@ body {
 .container {
     display: flex;
     justify-content: flex-start;
-    padding: 1rem 1rem;
+    padding: 1rem;
     gap: 1rem;
 }
 
@@ -99,7 +99,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     width: 120rem;
 }
 
@@ -206,8 +206,8 @@ body {
 .principal-rank {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     gap: 1rem;
-    padding-bottom: 3rem;
     width: 100rem;
 }
 
@@ -244,7 +244,6 @@ body {
     height: 100vh;
     border: 0.1rem solid var(--soft-gray);
     border-radius: 1rem;
-    padding-bottom: 3rem;
 }
 
 .profile-principal-img {
@@ -280,7 +279,6 @@ body {
     border: 0.1rem solid var(--soft-gray);
     padding: 2rem 2rem;
     border-radius: 1rem;
-    padding-bottom: 3rem;
 }
 
 .principal-account p {
@@ -328,7 +326,6 @@ body {
     padding: 2rem;
     border: 0.1rem solid var(--soft-gray);
     border-radius: 1rem;
-    padding-bottom: 3rem;
 }
 
 .contato-p1 {
@@ -371,25 +368,60 @@ footer a:hover {
 
     .lateral {
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         flex-direction: row;
         width: 100%;
     }
 
+    /* talk about */
+    .lateral p {
+        display: none;
+    }
+
+    .fa-solid {
+        padding: 1rem;
+    }
+
     .principal-profile, .principal-account, .principal-contact {
-        width: 35rem;
+        width: 100%;
         height: 80vh;
         align-items: center;
         justify-content: center;
+        padding: 0;
+        padding: 2rem;
+    }
+
+    .principal-account, .principal-contact {
+        align-items: flex-start;
+    }
+
+    .principal-rank {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .principal {
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .dois-cards {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .imagem-modulo {
+        width: 100%;
+    }
+
+    .card-modulo {
+        gap: 0.3rem;
     }
 
     .acesso {
         flex-direction: column;
-        padding: 0.5rem;
-    }
-
-    .acesso {
-        padding: 0.5rem;
+        padding: 1rem;
     }
 
     .acesso p {
@@ -398,7 +430,7 @@ footer a:hover {
     }
 
     .principal-account input {
-        width: 20rem;
+        width: 100%;
     }
 
     .principal-account p {
@@ -406,14 +438,16 @@ footer a:hover {
     }
 
     .account-save {
-        padding: 1rem 8rem;
+        padding: 1rem 1rem;
+        width: 100%;
+    }
+
+    .account-link {
+        text-align: center;
+        width: 100%;
     }
 
     .principal-contact p { 
         font-size: 1.6rem;
-    }
-
-    .principal-rank {
-        width: 35rem;
     }
 }
