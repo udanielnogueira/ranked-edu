@@ -99,7 +99,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    padding-bottom: 3rem;
+    margin-bottom: 40rem;
     width: 120rem;
 }
 
@@ -389,6 +389,10 @@ footer a:hover {
         justify-content: center;
         padding: 0;
         padding: 2rem;
+    }
+
+    .principal {
+        margin-bottom: 0;
     }
 
     .principal-account, .principal-contact {
