@@ -373,6 +373,10 @@ footer a:hover {
         width: 100%;
     }
 
+    .topo {
+        padding: 1rem;
+    }
+
     /* talk about */
     .lateral p {
         display: none;
