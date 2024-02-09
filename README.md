@@ -4,4 +4,4 @@ Aplicação web para cursos a distância.
 
 ## Acesse
 
-udanielnogueira.github.io/ranked-edu/
+https://udanielnogueira.github.io/ranked-edu/
