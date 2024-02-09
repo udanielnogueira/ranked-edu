@@ -1,4 +1,5 @@
 /* Outfit 100 400 700 900 */
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700;900&display=swap');
 
 :root {
@@ -57,7 +58,6 @@ body {
     border: 0.3rem solid var(--main-color);
     padding: 0.3rem;
 }
-
 
 /* Container */
 
@@ -362,6 +362,8 @@ footer a{
 footer a:hover {
     color: var(--bg-color);
 }
+
+/* Mobile */
 
 @media only screen and (max-width: 1150px) {
     .container {
