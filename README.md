@@ -1,6 +1,6 @@
 # ranked-edu
 
-Frontend de uma aplicação web para cursos a distância.
+Aplicação web para cursos a distância.
 
 ## Acesse
 
