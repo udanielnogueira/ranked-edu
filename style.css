@@ -168,19 +168,19 @@ body {
 }
 
 .mod-1 {
-    background-image: url("img/modulo-1.jpg");
+    background-image: url("img/cover-1.jpg");
 }
 
 .mod-2 {
-    background-image: url("img/modulo-2.jpg");
+    background-image: url("img/cover-2.jpg");
 }
 
 .mod-3 {
-    background-image: url("img/modulo-3.jpg");
+    background-image: url("img/cover-3.jpg");
 }
 
 .mod-4 {
-    background-image: url("img/modulo-4.jpg");
+    background-image: url("img/cover-4.jpg");
 }
 
 .progress {
